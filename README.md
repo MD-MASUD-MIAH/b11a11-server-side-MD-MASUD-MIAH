@@ -35,3 +35,31 @@ The backend provides secure and structured APIs for the SpeakFlow frontend, incl
 
 ---
 
+🔐 Environment Variables
+
+MONGODB_URL = ..
+FB_SERVICE_KEY = ..
+
+
+📢 API Endpoints (Simple Overview)
+
+GET /blogs → All public blogs
+
+GET /blogs/:id → Blog by ID
+
+POST /blogs → Create a new blog
+
+PATCH /blogs/:id → Update blog
+
+DELETE /blogs/:id → Delete blog
+
+GET /wishlist?email= → User's wishlisted blogs
+
+POST /wishlist → Add to wishlist
+
+DELETE /wishlist/:id → Remove from wishlist
+
+POST /comments → Add a comment
+
+GET /comments/:blogId → Get comments for a blog
+
